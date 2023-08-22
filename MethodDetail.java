@@ -5,10 +5,19 @@ public class MethodDetail{
  		int[]  res = a.getSumAndSub(1,4);
  		System.out.println("ºÍ=" + res[0]);
  		System.out.println("²î=" + res[1]);
-
+ 
 			}
-		}
+		} 
+
+		byte b1 = 1;
+		byte b2 = 2;
+		a.getSumAndSub(b1,b2);
+		//a.getSumAndSub(1.1,1.8);
+
+		
+
 class AA {
+
 
 	public int[] getSumAndSub(int n1 ,int n2) {
 		int[] resArr = new int[2];
